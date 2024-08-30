@@ -1,0 +1,14 @@
+datasets
+librosa
+numpy
+gradio
+pandas
+random
+torch
+torchaudio
+transformers
+tqdm
+fastapi
+pydantic
+uvicorn
+io
