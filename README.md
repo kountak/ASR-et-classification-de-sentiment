@@ -35,3 +35,15 @@ Ce script Python implémente et entraîne un modèle BERT personnalisé pour la 
    - Sauvegarde les poids du modèle après l'entraînement.
   
 Le lien google drive pour le modèle est disponible [ici](https://drive.google.com/file/d/1uDsuwp-VHKuMU48ZC1fPENdXCQIV8LEi/view?usp=drive_link)
+
+# II. transcription.py
+Ce code crée une application web qui permet à un utilisateur de téléverser un fichier audio, de le transcrire en texte, et d'analyser le sentiment de ce texte en utilisant des modèles de traitement du langage naturel.
+Le [modèle choisi](https://huggingface.co/facebook/wav2vec2-large-xlsr-53-french) pour la transcription est un modèle éprouvé. En effet c'est un modèle de pointe pour la reconnaissance vocale en français, utilisant des techniques avancées d'apprentissage profond pour fournir des transcriptions précises à partir de données audio. 
+
+# III. demo_gradio.py
+L'utilisateur peut expérimenter le code in real-time en chargeant un fichier audio pour avoir la transcription et l'analyse du sentiment y relatifs.
+
+# IV. 
+
+# V. requirements.txt
+Vous trouverez dans ce fichier les librairies nécessaires
